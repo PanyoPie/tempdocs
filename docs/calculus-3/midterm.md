@@ -17,7 +17,7 @@ $$
 $$
 trong đó $A(S_i)$ là diện tích hình chữ nhật $S_i$.
 - Nếu khi $k \to \infty$ sao cho $d(P) \to 0$ mà tổng tích phân tiến tới một giá trị hữu hạn, không phụ thuộc vào cách chia miền $D$ và cách chọn tùy ý điểm $\xi_i$ thì giá trị ấy gọi là **Tích phân bội hai của $f$ trên $D$**.
-- Ký hiệu: $\displaystyle \iint_{[a, b] \times[c, d]} f(x, y) \; \text{d}x \, \text{d}y$.
+- Ký hiệu: $\displaystyle \iint_{[a, b] \times[c, d]} f(x, y) \, \text{d}x \, \text{d}y$.
 
 ### Tích phân bội 3
 - Cho hàm số $f(x, y, z)$ xác định trong một khối hộp chữ nhật đóng, bị chặn $E = [a, b] \times [c, d] \times [p, q]$.
@@ -29,7 +29,7 @@ $$
 $$
 trong đó $V(S_i)$ là thể tích hình hộp $S_i$.
 - Nếu khi $k \to \infty$ sao cho $d(P) \to 0$ mà tổng tích phân tiến tới một giá trị hữu hạn, không phụ thuộc vào cách chia miền $E$ và cách chọn tùy ý điểm $\xi_i$, thì giá trị ấy gọi là **Tích phân bội ba**.
-- Ký hiệu: $\displaystyle \iiint_{[a, b] \times[c, d] \times [p, q]} f(x, y, z) \; \text{d}x \, \text{d}y \, \text{d}z$.
+- Ký hiệu: $\displaystyle \iiint_{[a, b] \times[c, d] \times [p, q]} f(x, y, z) \, \text{d}x \, \text{d}y \, \text{d}z$.
 
 
 
@@ -41,20 +41,20 @@ g_x(y) = f(x, y)
 $$
 
 $$
-I_*(x) = \int_{*B} g_x \; \text{d}y =  \int_{*B} f(x, y) \; \text{d}y
+I_*(x) = \int_{*B} g_x \, \text{d}y =  \int_{*B} f(x, y) \, \text{d}y
 $$
 
 $$
-I^*(x) = \int^*_B g_x \; \text{d}y =  \int^*_B f(x, y) \; \text{d}y
+I^*(x) = \int^*_B g_x \, \text{d}y =  \int^*_B f(x, y) \, \text{d}y
 $$
 
 - Khi đó: $I_*$ và $I^*$ khả tích trên $A$ và:
 $$
-\int_{A \times B} f \; \text{d}V = \int_A I_* \; \text{d}x = \int_A \left( \int_{*B} f(x, y) \; \text{d}y \right) \text{d}x
+\int_{A \times B} f \, \text{d}V = \int_A I_* \, \text{d}x = \int_A \left( \int_{*B} f(x, y) \, \text{d}y \right) \text{d}x
 $$
 
 $$
-\int_{A \times B} f \; \text{d}V = \int_A I^* \; \text{d}x = \int_A \left( \int^*_B f(x, y) \; \text{d}y \right) \text{d}x
+\int_{A \times B} f \, \text{d}V = \int_A I^* \, \text{d}x = \int_A \left( \int^*_B f(x, y) \, \text{d}y \right) \text{d}x
 $$
 
 ## Câu 3. Định nghĩa tích phân đường loại I
@@ -68,7 +68,7 @@ $$
 $$
 được gọi là **Tích phân đường loại I** của hàm $f(x, y)$ trên đường cong $L$ và ký hiệu:
 $$
-\int_L f(x, y) \; \text{d}s = \lim_{d(T_n) \to 0} \sum_{i = 1}^n f(M_i) \cdot \Delta s_i
+\int_L f(x, y) \, \text{d}s = \lim_{d(T_n) \to 0} \sum_{i = 1}^n f(M_i) \cdot \Delta s_i
 $$
 
 
@@ -86,7 +86,7 @@ $$
 
 - $D$ là hình chiếu của $V$ xuống mặt phẳng $Oxy$. Khi đó thể tích $V$ của khối trụ được tính bằng công thức:
 $$
-V = \iint_{D} f(x, y) \; \text{d}x \, \text{d}y
+V = \iint_{D} f(x, y) \, \text{d}x \, \text{d}y
 $$
 
 3. Thể tích $V$  của miền đo được $B$ trong không gian $Oxyz$ được tính bằng công thức:
@@ -99,17 +99,17 @@ $$
 ### Tính khối lượng của một vật khi biết hàm mật độ khối lượng
 - Nếu $L = \overset{\frown}{AB}$ là "*đường cong vật chất*" và $\rho(x, y, z)$ là hàm mật độ khối lượng, khối lượng $m$ của vật thể dọc theo cung $L$ được tính bằng:
 $$
-m = \displaystyle \int_L \rho(x, y, z) \; \text{d}s
+m = \displaystyle \int_L \rho(x, y, z) \, \text{d}s
 $$
 
 ### Công thức liên quan tọa độ trọng tâm
 - Tọa độ trọng tâm của dây $L = \overset{\frown}{AB}$ được tính theo công thức:
 $$
-x_0 = \frac{1}{m} \int_L x \cdot \rho(x, y, z) \; \text{d}s
+x_0 = \frac{1}{m} \int_L x \cdot \rho(x, y, z) \, \text{d}s
 $$
 $$
-y_0 = \frac{1}{m} \int_L y \cdot \rho(x, y, z) \; \text{d}s
+y_0 = \frac{1}{m} \int_L y \cdot \rho(x, y, z) \, \text{d}s
 $$
 $$
-z_0 = \frac{1}{m} \int_L z \cdot \rho(x, y, z) \; \text{d}s
+z_0 = \frac{1}{m} \int_L z \cdot \rho(x, y, z) \, \text{d}s
 $$

@@ -12,7 +12,7 @@ sidebar_position: 1
 ## Định lý: Ước tính phần dư cho tiêu chuẩn tích phân
 **Phát biểu:** $f(x) = a_k$, trong đó $f$ là một hàm số liên tục, dương và nghịch biến $\forall \; x \ge n$ và chuỗi $\displaystyle \sum_{n = 1}^\infty a_n$ hội tụ đến giá trị $S$.
 
-**Kết luận:** $\boxed{\displaystyle \int_{n + 1}^{+\infty} f(x) \; \text{d}x \le R_n \le \displaystyle \int_{n}^{+\infty} f(x) \; \text{d}x}$
+**Kết luận:** $\boxed{\displaystyle \int_{n + 1}^{+\infty} f(x) \, \text{d}x \le R_n \le \displaystyle \int_{n}^{+\infty} f(x) \, \text{d}x}$
 
 ## Định lý: Ước lượng tổng của chuỗi đan dấu
 **Phát biểu:** Cho chuỗi đan dấu hội tụ có dạng: $S = \displaystyle \sum_{n = 1}^\infty (-1)^{n} \cdot a_n$. Tức chuỗi đan dấu này thỏa mãn hai điều kiện:

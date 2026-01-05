@@ -49,7 +49,7 @@ sidebar_position: 1
 
   $|x_n - x_m| < \varepsilon \; \forall \; n, m \ge n_0$
 
-  hay $|x_{n + p} - x_n| < \varepsilon \; \forall \; n \ge n_0 \; \text{và} \; p \in \mathbb{N}, p \ge 1$.
+  hay $|x_{n + p} - x_n| < \varepsilon \; \forall \; n \ge n_0 \, \text{và} \; p \in \mathbb{N}, p \ge 1$.
 
 - **Nguyên lý Cauchy cho giới hạn của dãy số:** *Dãy số $(x_n)_n$ hội tụ khi và chỉ khi nó là dãy cơ bản.*
 

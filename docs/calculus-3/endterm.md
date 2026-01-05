@@ -48,9 +48,9 @@ $$
 
 Giả sử $\Omega$ là miền bị chặn trong không gian $\mathbb{R}^3$ với biên $S$ trơn hoặc trơn từng mảnh.
 
-$P(x, y, z)$, $Q(x, y, z)$ và $R(x, y, z)$ các hàm khả vi liên tục trong $\overline{\Omega} = \Omega \cup S$.
+$P(x, y, z)$, $Q(x, y, z)$ và $R(x, y, z)$ là các hàm khả vi liên tục trong $\overline{\Omega} = \Omega \cup S$.
 
 Khi đó ta có công thức Gauss-Ostrogradsky:
 $$
-\oint_{S^+} P(x, y, z) \, \text{d}y \, \text{d}z + Q(x, y, z) \, \text{d}z \, \text{d}x + R(x, y, z) \, \text{d}x \, \text{d}y = \iiint_{\Omega} \left[ \frac{\partial P}{\partial x}(x, y, z) + \frac{\partial Q}{\partial y}(x, y, z) + \frac{\partial R}{\partial z}(x, y, z) \right] \, \text{d}x \, \text{d}y \, \text{d}z
+\iint_{S^+} P(x, y, z) \, \text{d}y \, \text{d}z + Q(x, y, z) \, \text{d}z \, \text{d}x + R(x, y, z) \, \text{d}x \, \text{d}y = \iiint_{\Omega} \left[ \frac{\partial P}{\partial x}(x, y, z) + \frac{\partial Q}{\partial y}(x, y, z) + \frac{\partial R}{\partial z}(x, y, z) \right] \, \text{d}x \, \text{d}y \, \text{d}z
 $$

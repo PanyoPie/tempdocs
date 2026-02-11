@@ -11,20 +11,20 @@ g_x(y) = f(x, y)
 $$
 
 $$
-I_*(x) = \int_{*B} g_x \, \text{d}y =  \int_{*B} f(x, y) \, \text{d}y
+I_*(x) = \int_{*B} g_x \, \mathrm{d}y =  \int_{*B} f(x, y) \, \mathrm{d}y
 $$
 
 $$
-I^*(x) = \int^*_B g_x \, \text{d}y =  \int^*_B f(x, y) \, \text{d}y
+I^*(x) = \int^*_B g_x \, \mathrm{d}y =  \int^*_B f(x, y) \, \mathrm{d}y
 $$
 
 Khi đó: $I_*$ và $I^*$ khả tích trên $A$ và:
 $$
-\int_{A \times B} f \, \text{d}V = \int_A I_* \, \text{d}x = \int_A \left( \int_{*B} f(x, y) \, \text{d}y \right) \text{d}x
+\int_{A \times B} f \, \mathrm{d}V = \int_A I_* \, \mathrm{d}x = \int_A \left( \int_{*B} f(x, y) \, \mathrm{d}y \right) \mathrm{d}x
 $$
 
 $$
-\int_{A \times B} f \, \text{d}V = \int_A I^* \, \text{d}x = \int_A \left( \int^*_B f(x, y) \, \text{d}y \right) \text{d}x
+\int_{A \times B} f \, \mathrm{d}V = \int_A I^* \, \mathrm{d}x = \int_A \left( \int^*_B f(x, y) \, \mathrm{d}y \right) \mathrm{d}x
 $$
 
 ## Câu 2. Phát biểu nội dung định lý Green
@@ -34,7 +34,7 @@ Giả sử $P(x, y)$ và $Q(x, y)$ là các hàm xác định và liên tục c�
 
 Khi đó ta có công thức Green:
 $$
-\oint_{C^+} P(x, y) \, \text{d}x + Q(x, y) \, \text{d}y = \iint_D \left[ \frac{\partial Q}{\partial x}(x, y) - \frac{\partial P}{\partial y}(x, y) \right] \, \text{d}x \, \text{d}y
+\oint_{C^+} P(x, y) \, \mathrm{d}x + Q(x, y) \, \mathrm{d}y = \iint_D \left[ \frac{\partial Q}{\partial x}(x, y) - \frac{\partial P}{\partial y}(x, y) \right] \, \mathrm{d}x \, \mathrm{d}y
 $$
 
 ## Câu 3. Phát biểu nội dung định lý (Gauss-)Ostrogradsky
@@ -52,7 +52,7 @@ $P(x, y, z)$, $Q(x, y, z)$ và $R(x, y, z)$ là các hàm khả vi liên tục t
 
 Khi đó ta có công thức Gauss-Ostrogradsky:
 $$
-\iint_{S^+} P(x, y, z) \, \text{d}y \, \text{d}z + Q(x, y, z) \, \text{d}z \, \text{d}x + R(x, y, z) \, \text{d}x \, \text{d}y = \iiint_{\Omega} \left[ \frac{\partial P}{\partial x}(x, y, z) + \frac{\partial Q}{\partial y}(x, y, z) + \frac{\partial R}{\partial z}(x, y, z) \right] \, \text{d}x \, \text{d}y \, \text{d}z
+\iint_{S^+} P(x, y, z) \, \mathrm{d}y \, \mathrm{d}z + Q(x, y, z) \, \mathrm{d}z \, \mathrm{d}x + R(x, y, z) \, \mathrm{d}x \, \mathrm{d}y = \iiint_{\Omega} \left[ \frac{\partial P}{\partial x}(x, y, z) + \frac{\partial Q}{\partial y}(x, y, z) + \frac{\partial R}{\partial z}(x, y, z) \right] \, \mathrm{d}x \, \mathrm{d}y \, \mathrm{d}z
 $$
 
 với $S^+$ là biên của $\Omega$ được định hướng dương theo pháp tuyến ngoài.

@@ -41,9 +41,9 @@ $$
     được gọi là chuỗi lượng giác.
 
 - Giả sử $f(x)$ là hàm liên tục trong khoảng $(-\pi; +\pi)$, tuần hoàn với chu kỳ $2\pi$. Ta xác định các hệ số $a_0, a_n, b_n$ $(n = 1, 2, \cdots)$ theo công thức:
-    - $a_0 = \dfrac{1}{\pi} \displaystyle \int_{-\pi}^{\pi} f(x) \, \text{d}x$
-    - $a_n = \dfrac{1}{\pi} \displaystyle \int_{-\pi}^{\pi} f(x) \cdot \cos(nx) \, \text{d}x \; \; (n = 1, 2, \dots)$
-    - $b_n = \dfrac{1}{\pi} \displaystyle \int_{-\pi}^{\pi} f(x) \cdot \sin(nx) \, \text{d}x$
+    - $a_0 = \dfrac{1}{\pi} \displaystyle \int_{-\pi}^{\pi} f(x) \, \mathrm{d}x$
+    - $a_n = \dfrac{1}{\pi} \displaystyle \int_{-\pi}^{\pi} f(x) \cdot \cos(nx) \, \mathrm{d}x \; \; (n = 1, 2, \dots)$
+    - $b_n = \dfrac{1}{\pi} \displaystyle \int_{-\pi}^{\pi} f(x) \cdot \sin(nx) \, \mathrm{d}x$
 
 - Khi đó chuỗi lượng giác với các hệ số $a_0, a_n, b_n$ được xác định theo các công thức trên được gọi là chuỗi Fourier của hàm $f(x)$ và ký hiệu:
 
@@ -70,14 +70,14 @@ $$
 
 ## Câu 5: Viết biểu thức khai triển chẵn, khai triển lẻ của một hàm xác định, khả vi từng khúc trên đoạn $[0, π]$.
 - Nếu $f(x)$ là hàm chẵn:
-    - $a_0 = \dfrac{2}{\pi} \displaystyle \int_0^\pi f(x) \, \text{d}x$
-    - $a_n = \dfrac{2}{\pi} \displaystyle \int_0^\pi f(x) \cos(nx) \, \text{d}x$
+    - $a_0 = \dfrac{2}{\pi} \displaystyle \int_0^\pi f(x) \, \mathrm{d}x$
+    - $a_n = \dfrac{2}{\pi} \displaystyle \int_0^\pi f(x) \cos(nx) \, \mathrm{d}x$
     - $b_n = 0$
     - Như vậy: $f(x) \sim \dfrac{a_0}{2} + \displaystyle \sum_{n = 1}^\infty a_n \cos(nx)$.
 - Nếu $f(x)$ là hàm lẻ:
     - $a_0 = 0$
     - $a_n = 0$
-    - $b_n = \dfrac{2}{\pi} \displaystyle \int_0^\pi f(x) \sin(nx) \, \text{d}x$
+    - $b_n = \dfrac{2}{\pi} \displaystyle \int_0^\pi f(x) \sin(nx) \, \mathrm{d}x$
     - Như vậy: $f(x) \sim \displaystyle \sum_{n = 1}^\infty b_n \sin(nx)$.s
 
 ## Câu 6. Nêu định nghĩa một số khái niệm tô-pô trong không gian nhiều chiều: điểm trong, điểm dính, điểm biên, điểm tụ, ...

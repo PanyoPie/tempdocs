@@ -241,8 +241,8 @@ $\displaystyle \sum_{n = 1}^{+\infty} (-x^2)^{n - 1} = \dfrac{(-x^2)^{1 - 1}}{1 
 Vậy $\displaystyle \sum_{n = 1}^{+\infty} (-1)^{n - 1} x^{2n - 2} = \dfrac{1}{1 + x^2}$.
 
 ## Câu 5
-1) Tính $\displaystyle \int \dfrac{\text{d}x}{1 + x^7}$ dưới dạng một chuỗi lũy thừa.
-2) Áp dụng để tính gần đúng $\displaystyle \int_0^{0,5} \dfrac{\text{d}x}{1 + x^7}$ chính xác đến $10^{-7}$.
+1) Tính $\displaystyle \int \dfrac{\mathrm{d}x}{1 + x^7}$ dưới dạng một chuỗi lũy thừa.
+2) Áp dụng để tính gần đúng $\displaystyle \int_0^{0,5} \dfrac{\mathrm{d}x}{1 + x^7}$ chính xác đến $10^{-7}$.
 
 ### Câu 5.1
 Theo khai triển Maclaurin:
@@ -255,14 +255,14 @@ $\dfrac{1}{1 + x^7} = \displaystyle \sum_{n = 0}^{+\infty} (-1)^n x^{7n} = 1 - x
 
 Nguyên hàm hai vế, ta có:
 
-$\displaystyle \int \dfrac{\text{d}x}{1 + x^7} = \displaystyle \int \sum_{n = 0}^{+\infty} (-1)^n x^{7n} \, \text{d}x = \sum_{n = 0}^{+\infty} \int (-1)^n x^{7n} \, \text{d}x$
+$\displaystyle \int \dfrac{\mathrm{d}x}{1 + x^7} = \displaystyle \int \sum_{n = 0}^{+\infty} (-1)^n x^{7n} \, \mathrm{d}x = \sum_{n = 0}^{+\infty} \int (-1)^n x^{7n} \, \mathrm{d}x$
 
-$= \displaystyle \sum_{n = 0}^{+\infty} (-1)^n \int x^{7n} \, \text{d}x = \sum_{n = 0}^{+\infty} (-1)^n \dfrac{x^{7n + 1}}{7n + 1}$.
+$= \displaystyle \sum_{n = 0}^{+\infty} (-1)^n \int x^{7n} \, \mathrm{d}x = \sum_{n = 0}^{+\infty} (-1)^n \dfrac{x^{7n + 1}}{7n + 1}$.
 
-Vậy $\displaystyle \int \dfrac{\text{d}x}{1 + x^7} = \sum_{n = 0}^{+\infty} (-1)^n \dfrac{x^{7n + 1}}{7n + 1}$.
+Vậy $\displaystyle \int \dfrac{\mathrm{d}x}{1 + x^7} = \sum_{n = 0}^{+\infty} (-1)^n \dfrac{x^{7n + 1}}{7n + 1}$.
 
 ### Câu 5.2
-$\displaystyle \int_0^{0,5} \dfrac{\text{d}x}{1 + x^7} = \sum_{n = 0}^{+\infty} (-1)^n \dfrac{0,5^{7n + 1}}{7n + 1}$
+$\displaystyle \int_0^{0,5} \dfrac{\mathrm{d}x}{1 + x^7} = \sum_{n = 0}^{+\infty} (-1)^n \dfrac{0,5^{7n + 1}}{7n + 1}$
 
 Theo định lý *Ước lượng tổng của chuỗi đan dấu*:
 
@@ -278,10 +278,10 @@ Xét với các giá trị của $n$:
 
 $\Rightarrow$ Lấy $n = 2$.
 
-$\displaystyle \int_0^{0,5} \dfrac{\text{d}x}{1 + x^7} \approx \sum_{n = 0}^{2} (-1)^n \dfrac{0,5^{7n + 1}}{7n + 1} = 0,4495137533 \dots$
+$\displaystyle \int_0^{0,5} \dfrac{\mathrm{d}x}{1 + x^7} \approx \sum_{n = 0}^{2} (-1)^n \dfrac{0,5^{7n + 1}}{7n + 1} = 0,4495137533 \dots$
 
 <hr />
 
-$\displaystyle \int_0^{0,5} \dfrac{\text{d}x}{1 + x^7} \approx 0,449513\underline{7}533 \dots$
+$\displaystyle \int_0^{0,5} \dfrac{\mathrm{d}x}{1 + x^7} \approx 0,449513\underline{7}533 \dots$
 
-$\displaystyle \int_0^{0,5} \dfrac{\text{d}x}{1 + x^7} = 0,449513\underline{7}425 \dots$
+$\displaystyle \int_0^{0,5} \dfrac{\mathrm{d}x}{1 + x^7} = 0,449513\underline{7}425 \dots$

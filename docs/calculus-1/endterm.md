@@ -227,35 +227,35 @@ $(f \cdot g)^{(n)}(x) = \displaystyle \sum_{k = 0}^n C^k_n \cdot f^{(k)}(x) \cdo
 1. Định nghĩa nguyên hàm và tích phân không xác định của một hàm.
 - Định nghĩa nguyên hàm: Cho hàm số $f$ xác định trên một khoảng $\mathbb{X}$ trong $\mathbb{R}$. Hàm số $F$ là một nguyên hàm của $f$ của $\mathbb{X}$ nếu $F$ khả vi trên $\mathbb{X}$ và $F'(x) = f(x)$ trên $\mathbb{X}$.
 - Định nghĩa tích phân không xác định: Tập hợp tất cả các nguyên hàm của $f$ trên $\mathbb{X}$ được gọi là tích phân không xác định của $f$ trên $\mathbb{X}$.
-    - Ký hiệu: $\displaystyle \int f(x) \, \text{d}x = \{ F(x) + C \; | \; C \in \mathbb{R} \} = F(x) + C$
+    - Ký hiệu: $\displaystyle \int f(x) \, \mathrm{d}x = \{ F(x) + C \; | \; C \in \mathbb{R} \} = F(x) + C$
         
         (ở đây $F(x)$ là một nguyên hàm của $f$ trên $\mathbb{X}$ và $C \in \mathbb{R}$)
         
 
 1. Công thức đổi biến và công thức tích phân từng phần đối với tích phân không xác định.
 - Công thức đổi biến:
-    - Cách 1: Cần tính $\displaystyle \int f(\varphi(x)) \cdot \varphi'(x) \, \text{d}x$
+    - Cách 1: Cần tính $\displaystyle \int f(\varphi(x)) \cdot \varphi'(x) \, \mathrm{d}x$
         
         Đặt $y = \varphi(x)$
         
-        Khi đó: $\displaystyle \int f(\varphi(x)) \cdot \varphi'(x) \, \text{d}x = \int f(y) \, \text{d}y$
+        Khi đó: $\displaystyle \int f(\varphi(x)) \cdot \varphi'(x) \, \mathrm{d}x = \int f(y) \, \mathrm{d}y$
         
         $= F(y) + C = F(\varphi(x)) + C$.
         
-    - Cách 2: Cần tính $\displaystyle \int f(x) \, \text{d}x$ trên khoảng $\mathbb{X}$
+    - Cách 2: Cần tính $\displaystyle \int f(x) \, \mathrm{d}x$ trên khoảng $\mathbb{X}$
         
         Đặt $x = \varphi(t)$, với $\varphi : \mathbb{T} \to \mathbb{R}$ khả vi trên $\mathbb{T}$ và có hàm ngược $\varphi^{-1} : \mathbb{X} \to \mathbb{T}$.
         
-        Khi đó: $\displaystyle \int f(x) \, \text{d}x = \int f(\varphi(t)) \cdot \varphi'(t) \, \text{d}t$
+        Khi đó: $\displaystyle \int f(x) \, \mathrm{d}x = \int f(\varphi(t)) \cdot \varphi'(t) \, \mathrm{d}t$
         
         $= G(t) + C = G(\varphi^{-1}(x)) + C$
         
 - Công thức tích phân từng phần:
     - Cho hàm số $u, v : \mathbb{X} \to \mathbb{R}$ khả vi trong khoảng $\mathbb{X}$.
         
-        Khi đó: $\displaystyle \int u(x) \cdot v'(x) \, \text{d}x = u(x) \cdot v(x) - \int u'(x) \cdot v(x) \, \text{d}x$
+        Khi đó: $\displaystyle \int u(x) \cdot v'(x) \, \mathrm{d}x = u(x) \cdot v(x) - \int u'(x) \cdot v(x) \, \mathrm{d}x$
         
-        hay $\displaystyle \int u \, \text{d}v = uv - \int v \, \text{d}u$.
+        hay $\displaystyle \int u \, \mathrm{d}v = uv - \int v \, \mathrm{d}u$.
         
 
 1. Định nghĩa tổng tích phân, định nghĩa giới hạn của tổng tích phân, khái niệm hàm khả tích.
@@ -270,7 +270,7 @@ $(f \cdot g)^{(n)}(x) = \displaystyle \sum_{k = 0}^n C^k_n \cdot f^{(k)}(x) \cdo
         
         - Ký hiệu: $I = \displaystyle \lim_{d(T) \to 0} S_f(T, \xi)$.
     - Trong trường hợp này, hàm số $f$ được gọi là khả tích trên $[a, b]$ và giới hạn $I$ được gọi là tích phân xác định của hàm số $f$ trên $[a, b]$.
-        - Ký hiệu: $\displaystyle \int_a^b f(x) \, \text{d}x = I = \lim_{d(T) \to 0} S_f(T, \xi)$.
+        - Ký hiệu: $\displaystyle \int_a^b f(x) \, \mathrm{d}x = I = \lim_{d(T) \to 0} S_f(T, \xi)$.
 
 - Khái niệm hàm khả tích: To be done soon… (tao deo tim duoc trong vo ae thong cam)
 
@@ -290,9 +290,9 @@ $(f \cdot g)^{(n)}(x) = \displaystyle \sum_{k = 0}^n C^k_n \cdot f^{(k)}(x) \cdo
 
 Cho hàm số $f$ liên tục trên $[a, b]$. Ta có Công thức Newton-Leibniz:
 
-$\displaystyle \int_a^b f(x) \, \text{d}x = \Phi(x) \bigg|_a^b = \Phi(b) - \Phi(a)$
+$\displaystyle \int_a^b f(x) \, \mathrm{d}x = \Phi(x) \bigg|_a^b = \Phi(b) - \Phi(a)$
 
-hay $\displaystyle \int_a^b f(x) \, \text{d}x = F(x) \bigg|_a^b = F(b) - F(a)$.
+hay $\displaystyle \int_a^b f(x) \, \mathrm{d}x = F(x) \bigg|_a^b = F(b) - F(a)$.
 
 (ở đây, $\Phi$ là một nguyên hàm của $f$ trên $[a, b]$)
 
@@ -307,49 +307,49 @@ hay $\displaystyle \int_a^b f(x) \, \text{d}x = F(x) \bigg|_a^b = F(b) - F(a)$.
             
         - Độ dài của cung $\overset{\frown}{AB}$ là:
             
-            $\ell(\overset{\frown}{AB}) = \displaystyle \int_a^b \sqrt{[x'(t)]^2 + [y'(t)]^2} \, \text{d}t$.
+            $\ell(\overset{\frown}{AB}) = \displaystyle \int_a^b \sqrt{[x'(t)]^2 + [y'(t)]^2} \, \mathrm{d}t$.
             
     - Cho bởi đồ thị hàm số:
         - Cho hàm số $y = f(x)$ khả vi liên tục trên $[a, b]$.
         - Xét cung $\overset{\frown}{AB} = \{ (x, f(x)) \}$ với $x \in [a, b]$ với phương trình tham số: $\begin{cases} x = x \\ y = f(x) \end{cases}$ với $x \in [a, b]$.
         - Độ dài của cung $\overset{\frown}{AB}$ là:
             
-            $\ell(\overset{\frown}{AB}) = \displaystyle \int_a^b \sqrt{1 + [f'(x)]^2} \, \text{d}x$.
+            $\ell(\overset{\frown}{AB}) = \displaystyle \int_a^b \sqrt{1 + [f'(x)]^2} \, \mathrm{d}x$.
             
 - Công thức tính diện tích hình phẳng:
     - Hệ tọa độ Descartes:
         - $D$ là phần được giới hạn bởi đồ thị của các hàm số $y = f(x); y = g(x); x = a; x = b$, ở đây $f$ và $g$ là các hàm khả tích trên $[a, b]$. Ta có:
             
-            $S(D) = \displaystyle \int_a^b |f(x) - g(x)| \, \text{d}x$.
+            $S(D) = \displaystyle \int_a^b |f(x) - g(x)| \, \mathrm{d}x$.
             
     - Hệ tọa độ cực:
         - $D$ là phần được cho bởi $D = \{(r, \varphi) \, | \, r \le r(\varphi), \varphi \in [\alpha, \beta]\}$, ở đây $r(\varphi)$ là hàm khả tích trên $[\alpha, \beta]$. Ta có:
             
-            $S(D) = \dfrac{1}{2} \displaystyle \int_\alpha^\beta r^2(\varphi) \, \text{d}\varphi$.
+            $S(D) = \dfrac{1}{2} \displaystyle \int_\alpha^\beta r^2(\varphi) \, \mathrm{d}\varphi$.
             
 - Công thức tính thể tích và diện tích xung quanh của vật tròn xoay:
     - Cho hình thang cong $D = \{(x, y) \, | \, 0 \le y \le f(x), x \in [a, b]\}$, ở đây $f$ là một hàm khả tích trên $[a, b]$. Quay miền $D$ xung quanh trục $Ox$, ta nhận được vật thể tròn xoay $\Omega$.
     - Thể tích:
-        - $v(\Omega) = \pi \displaystyle \int_a^b f^2(t) \, \text{d}t$.
+        - $v(\Omega) = \pi \displaystyle \int_a^b f^2(t) \, \mathrm{d}t$.
     - Diện tích xung quanh:
-        - $S_{xq}(\Omega) = 2 \pi \displaystyle \int_a^b f(t) \cdot \sqrt{1 + [f'(t)]^2} \, \text{d}t$.
+        - $S_{xq}(\Omega) = 2 \pi \displaystyle \int_a^b f(t) \cdot \sqrt{1 + [f'(t)]^2} \, \mathrm{d}t$.
 
 1.  Định nghĩa tích phân suy rộng loại 1 và tích phân suy rộng loại 2.
 - Định nghĩa tích phân suy rộng loại 1:
     - Cho $f : [a, +\infty) \to \mathbb{R}$ thoải mãn sao cho $f$ khả tích trên $\forall \; [a, A]$ với $A \ge a$.
         
-        Đặt $F(A) = \displaystyle \int_a^A f(x) \, \text{d}x$ với $A \ge a$. Hàm số $F(A)$ xác định trên $[a, +\infty)$.
+        Đặt $F(A) = \displaystyle \int_a^A f(x) \, \mathrm{d}x$ với $A \ge a$. Hàm số $F(A)$ xác định trên $[a, +\infty)$.
         
-        Ký hiệu: $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x = \lim_{A \to +\infty} F(A) = \lim_{A \to +\infty} \int_a^A f(x) \, \text{d}x$.
+        Ký hiệu: $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x = \lim_{A \to +\infty} F(A) = \lim_{A \to +\infty} \int_a^A f(x) \, \mathrm{d}x$.
         
-        Khi đó, $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$ được gọi là tích phân suy rộng loại 1 của hàm số $f$ trên $[a, +\infty)$ và $+\infty$ là điểm kỳ dị duy nhất.
+        Khi đó, $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$ được gọi là tích phân suy rộng loại 1 của hàm số $f$ trên $[a, +\infty)$ và $+\infty$ là điểm kỳ dị duy nhất.
         
 - Định nghĩa tích phân suy rộng loại 2:
     - Cho $f : [a, b) \to \mathbb{R}$ sao cho $f$ khả tích trên mọi đoạn $[a, c]$ với $c \in [a, b)$ và $f$ không bị chặn khi $x \to b^-$. Khi đó, đặt:
         
-        $F(c) = \displaystyle \int_a^c f(x) \, \text{d}x := \lim_{c \to b^-} F(c) = \lim_{c \to b^-} \int_a^c f(x) \, \text{d}x$.
+        $F(c) = \displaystyle \int_a^c f(x) \, \mathrm{d}x := \lim_{c \to b^-} F(c) = \lim_{c \to b^-} \int_a^c f(x) \, \mathrm{d}x$.
         
-        Khi đó, $\displaystyle \int_a^b f(x) \, \text{d}x$ được gọi là tích phân suy rộng loại 2 của hàm số $f$ trên $[a, b)$ và $b$ được gọi là điểm kỳ dị của tích phân.
+        Khi đó, $\displaystyle \int_a^b f(x) \, \mathrm{d}x$ được gọi là tích phân suy rộng loại 2 của hàm số $f$ trên $[a, b)$ và $b$ được gọi là điểm kỳ dị của tích phân.
         
 
 1. Các dấu hiệu so sánh cho tích phân suy rộng của hàm nhận giá trị dương.
@@ -358,37 +358,37 @@ Tích phân suy rộng loại 1 của hàm không âm:
 
 - Dấu hiệu so sánh ở dạng không giới hạn:
     
-    Xét tích phân suy rộng $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$ và $\displaystyle \int_a^{+\infty} g(x) \, \text{d}x$ với $0 \le f(x) \le g(x)$ trên $[a, +\infty)$.
+    Xét tích phân suy rộng $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$ và $\displaystyle \int_a^{+\infty} g(x) \, \mathrm{d}x$ với $0 \le f(x) \le g(x)$ trên $[a, +\infty)$.
     
     Khi đó:
     
-    - Nếu tích phân $\displaystyle \int_a^{+\infty} g(x) \, \text{d}x$ hội tụ thì tích phân $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$ hội tụ.
-    - Nếu tích phân $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$ phân kỳ thì tích phân $\displaystyle \int_a^{+\infty} g(x) \, \text{d}x$ phân kỳ.
+    - Nếu tích phân $\displaystyle \int_a^{+\infty} g(x) \, \mathrm{d}x$ hội tụ thì tích phân $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$ hội tụ.
+    - Nếu tích phân $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$ phân kỳ thì tích phân $\displaystyle \int_a^{+\infty} g(x) \, \mathrm{d}x$ phân kỳ.
 - Dấu hiệu so sánh ở dạng giới hạn:
     
-    Xét tích phân suy rộng $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$ và $\displaystyle \int_a^{+\infty} g(x) \, \text{d}x$ với $f(x) \ge 0$ và $g(x) \ge 0$ trên $[0, +\infty)$.
+    Xét tích phân suy rộng $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$ và $\displaystyle \int_a^{+\infty} g(x) \, \mathrm{d}x$ với $f(x) \ge 0$ và $g(x) \ge 0$ trên $[0, +\infty)$.
     
     Giả sử tồn tại giới hạn $\displaystyle \lim_{x \to +\infty} \frac{f(x)}{g(x)} = k \in [0, +\infty]$ ***(*Note: $k$ có thể $= +\infty$)***. Khi đó:
     
-    - Nếu $k = 0$ thì tính hội tụ của $\displaystyle \int_a^{+\infty} g(x) \, \text{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$.
-    - Nếu $k = +\infty$ thì tính hội tụ của $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^{+\infty} g(x) \, \text{d}x$.
-    - Nếu $k \in (0, +\infty)$ thì tích phân $\displaystyle \int_a^{+\infty} f(x) \, \text{d}x$ hội tụ khi và chỉ khi tích phân $\displaystyle \int_a^{+\infty} g(x) \, \text{d}x$ hội tụ.
+    - Nếu $k = 0$ thì tính hội tụ của $\displaystyle \int_a^{+\infty} g(x) \, \mathrm{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$.
+    - Nếu $k = +\infty$ thì tính hội tụ của $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^{+\infty} g(x) \, \mathrm{d}x$.
+    - Nếu $k \in (0, +\infty)$ thì tích phân $\displaystyle \int_a^{+\infty} f(x) \, \mathrm{d}x$ hội tụ khi và chỉ khi tích phân $\displaystyle \int_a^{+\infty} g(x) \, \mathrm{d}x$ hội tụ.
 
 Tích phân suy rộng loại 2 của hàm không âm:
 
 - Dấu hiệu so sánh ở dạng không giới hạn:
     
-    Cho tích phân suy rộng $\displaystyle \int_a^b f(x) \, \text{d}x$ và $\displaystyle \int_a^b g(x) \, \text{d}x$ với $b$ là điểm kỳ dị duy nhất và $0 \le f(x) \le g(x)$ trên $[a, b)$.
+    Cho tích phân suy rộng $\displaystyle \int_a^b f(x) \, \mathrm{d}x$ và $\displaystyle \int_a^b g(x) \, \mathrm{d}x$ với $b$ là điểm kỳ dị duy nhất và $0 \le f(x) \le g(x)$ trên $[a, b)$.
     
     Khi đó:
     
-    - Tính hội tụ của $\displaystyle \int_a^b g(x) \, \text{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^b f(x) \, \text{d}x$.
+    - Tính hội tụ của $\displaystyle \int_a^b g(x) \, \mathrm{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^b f(x) \, \mathrm{d}x$.
 - Dấu hiệu so sánh ở dạng giới hạn:
     
-    Cho tích phân suy rộng $\displaystyle \int_a^b f(x) \, \text{d}x$ và $\displaystyle \int_a^b g(x) \, \text{d}x$ với $b$ là điểm kỳ dị duy nhất và $f(x) \ge 0$, $g(x) \ge 0$ trên $[a, b)$.
+    Cho tích phân suy rộng $\displaystyle \int_a^b f(x) \, \mathrm{d}x$ và $\displaystyle \int_a^b g(x) \, \mathrm{d}x$ với $b$ là điểm kỳ dị duy nhất và $f(x) \ge 0$, $g(x) \ge 0$ trên $[a, b)$.
     
     Giả sử tồn tại giới hạn: $\displaystyle \lim_{x \to b^-} \frac{f(x)}{g(x)} = k \in [0, +\infty]$ ***(*Note: $k$ có thể $= +\infty$)***. Khi đó:
     
-    - Nếu $k = 0$ thì tính hội tụ của $\displaystyle \int_a^b g(x) \, \text{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^b f(x) \, \text{d}x$.
-    - Nếu $k = +\infty$ thì tính hội tụ của $\displaystyle \int_a^b f(x) \, \text{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^b g(x) \, \text{d}x$.
-    - Nếu $k \in (0, +\infty)$ thì $\displaystyle \int_a^b f(x) \, \text{d}x$ và $\displaystyle \int_a^b g(x) \, \text{d}x$ cùng hội tụ hoặc cùng phân kỳ.
+    - Nếu $k = 0$ thì tính hội tụ của $\displaystyle \int_a^b g(x) \, \mathrm{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^b f(x) \, \mathrm{d}x$.
+    - Nếu $k = +\infty$ thì tính hội tụ của $\displaystyle \int_a^b f(x) \, \mathrm{d}x$ sẽ kéo theo tính hội tụ của $\displaystyle \int_a^b g(x) \, \mathrm{d}x$.
+    - Nếu $k \in (0, +\infty)$ thì $\displaystyle \int_a^b f(x) \, \mathrm{d}x$ và $\displaystyle \int_a^b g(x) \, \mathrm{d}x$ cùng hội tụ hoặc cùng phân kỳ.

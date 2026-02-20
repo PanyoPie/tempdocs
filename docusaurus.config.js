@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tunaaholic\'s Documentations 💖',
-  tagline: 'Idk what am I doing here ;-;',
+  tagline: 'Idk what im doing here ;-;',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -99,7 +99,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Proudly built with <b>Docusaurus</b>. Copyright © <b>${new Date().getFullYear()} <a href="https://github.com/dookkii">Nguyễn "dookkii_" Đức Tuân</a></b>`,
+        copyright: `Proudly built with <b>Docusaurus</b>. Copyright © <b>${new Date().getFullYear()} <a href="https://github.com/dookkii">Nguyễn "PanyoPie" Đức Tuân</a></b>`,
       },
       prism: {
         theme: prismThemes.github,

@@ -28,7 +28,7 @@ $$
 $$
 
 ## Câu 2. Phát biểu nội dung định lý Green
-Giả sử D là miền bị chặn, đơn liên trong mặt phẳng $Oxy$ được giới hạn bởi chu tuyến $C$ đóng, trơn từng khúc, không bị cắt. Chu tuyến $C$ được định hướng dương theo ngược hướng chiều kim đồng hồ. Như vậy khi đi theo hướng đó thì miền $D$ luôn luôn ở về phía bên trái.
+Giả sử $D$ là miền bị chặn, đơn liên trong mặt phẳng $Oxy$ được giới hạn bởi chu tuyến $C$ đóng, trơn từng khúc, không bị cắt. Chu tuyến $C$ được định hướng dương theo ngược hướng chiều kim đồng hồ. Như vậy khi đi theo hướng đó thì miền $D$ luôn luôn ở về phía bên trái.
 
 Giả sử $P(x, y)$ và $Q(x, y)$ là các hàm xác định và liên tục cùng với các đạo hàm riêng $\displaystyle \frac{\partial Q}{\partial x}(x, y)$, $\displaystyle \frac{\partial P}{\partial y}(x, y)$ liên tục trong miền đóng $\overline{D} = D \cup C$.
 
